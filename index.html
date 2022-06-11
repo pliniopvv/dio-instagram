@@ -4,24 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./components/cell-component.js" defer></script>
+    <script src="./components/profile-component.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <title>Instagram</title>
 </head>
 <body>
     <div class="instagram-wrapper">
-        <!-- <div class="instagram-phone">
-            <img src="./img/instagram-celular.png" alt="celular">
-        </div> -->
         <cell-component picture="./img/instagram-celular.png"></cell-component>
         <div class="instagram-continue">
-            <div class="group">
-                <img src="./img/instagram-logo.png" class="instagram-logo" alt="instagram logo">
-                <div class="profile-photo">
-                    <img src="./img/perfil-instagram-plinio.jpg" alt="foto de perfil">
-                </div>
-                <a href="#" class="instagram-login">Continue como pliniopvv</a>
-                <a href="#" class="instagram-logout">Remover conta</a>
-            </div>
+            <profile-component style="width: 100%; height: 100%;" picture="./img/perfil-instagram-plinio.jpg" nick="pliniopvv"></profile-component>
             <div class="group">
                 <p class="not-account">Não é pliniopvv?</p>
                 <p class="not-account">
