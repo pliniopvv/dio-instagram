@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./components/cell-component.js" defer></script>
     <script src="./components/profile-component.js" defer></script>
+    <script src="./components/error-options-component.js" defer></script>
+    <script src="./components/get-app-component.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <title>Instagram</title>
 </head>
@@ -13,21 +15,8 @@
         <cell-component picture="./img/instagram-celular.png"></cell-component>
         <div class="instagram-continue">
             <profile-component style="width: 100%; height: 100%;" picture="./img/perfil-instagram-plinio.jpg" nick="pliniopvv"></profile-component>
-            <div class="group">
-                <p class="not-account">Não é pliniopvv?</p>
-                <p class="not-account">
-                    <span class="link-blue">Alternar contas</span>
-                    ou
-                    <span class="link-blue">Inscreva-se</span>
-                </p>
-            </div>
-            <div class="get-the-app">
-                <p class="get-app">Baixe o aplicativo</p>
-                <div class="download">
-                    <a href="#" class="app-download"></a>
-                    <a href="#" class="app-download"></a>
-                </div>
-            </div>
+            <error-options-component nick="pliniopvv" style="width: 100%; height: 80%; margin-top: 15px;"></error-options-component>
+            <get-app-component style="width: 100%; height: 100%;"></get-app-component>
         </div>
     </div>
 </body>
